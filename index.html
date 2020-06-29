@@ -21,6 +21,11 @@
             console.log('ServiceWorker の登録に失敗しました。', err);
         });
     }
+    window.addEventListener('load', () => {
+        setInterval( () => {
+            document.querySelector('#clock').innerText = new Date();
+        },1000);
+    });
 </script>
 </body>
 </html>
