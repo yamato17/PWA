@@ -4,6 +4,9 @@ self.addEventListener('install', function(e) {
 
 self.addEventListener('activate', function(e) {
     console.log('[ServiceWorker] Activate');
+    setInterval( () => {
+        document.querySelector('#clock').innerText = new Date();
+    },1000);
 });
 
 // サービスワーカー有効化に必須
