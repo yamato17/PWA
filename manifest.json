@@ -1,0 +1,16 @@
+{
+  "name": "PWA_sample",
+  "short_name": "PWA",
+  "description": "インストール可能なWebサイト",
+  "icons": [
+    {
+      "src": "PWA_sample.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://shokodaira.github.io/",
+  "display": "fullscreen",
+  "theme_color": "#dff0d8",
+  "background_color": "#dff0d8"
+}
